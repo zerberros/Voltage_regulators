@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "LMR33630_REG-rescue")(type "Legacy")(uri "${KIPRJMOD}/LMR33630_REG-rescue.lib")(options "")(descr ""))
+)
