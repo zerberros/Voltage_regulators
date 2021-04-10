@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:LM2576S-3.3 U?
+U 1 1 5F01AC04
+P 5650 2250
+F 0 "U?" H 5650 2617 50  0000 C CNN
+F 1 "LM2576S-3.3" H 5650 2526 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 5650 2000 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 5650 2250 50  0001 C CNN
+	1    5650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F00A88F
+P 5650 2900
+F 0 "#PWR?" H 5650 2650 50  0001 C CNN
+F 1 "GND" H 5655 2727 50  0000 C CNN
+F 2 "" H 5650 2900 50  0001 C CNN
+F 3 "" H 5650 2900 50  0001 C CNN
+	1    5650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F00AB5D
+P 5000 2900
+F 0 "#PWR?" H 5000 2650 50  0001 C CNN
+F 1 "GND" H 5005 2727 50  0000 C CNN
+F 2 "" H 5000 2900 50  0001 C CNN
+F 3 "" H 5000 2900 50  0001 C CNN
+	1    5000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2350 5000 2350
+Wire Wire Line
+	5000 2350 5000 2900
+Wire Wire Line
+	5650 2900 5650 2550
+Wire Wire Line
+	5150 2150 4350 2150
+$Comp
+L Device:CP C?
+U 1 1 5F00B517
+P 4350 2500
+F 0 "C?" H 4468 2546 50  0000 L CNN
+F 1 "CP" H 4468 2455 50  0000 L CNN
+F 2 "" H 4388 2350 50  0001 C CNN
+F 3 "~" H 4350 2500 50  0001 C CNN
+	1    4350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F00BE86
+P 4350 2900
+F 0 "#PWR?" H 4350 2650 50  0001 C CNN
+F 1 "GND" H 4355 2727 50  0000 C CNN
+F 2 "" H 4350 2900 50  0001 C CNN
+F 3 "" H 4350 2900 50  0001 C CNN
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2900 4350 2650
+Wire Wire Line
+	4350 2350 4350 2150
+Wire Wire Line
+	4350 2150 4100 2150
+Connection ~ 4350 2150
+Wire Wire Line
+	6150 2350 6400 2350
+$Comp
+L Device:D D?
+U 1 1 5F00D4C1
+P 6400 2600
+F 0 "D?" V 6354 2680 50  0000 L CNN
+F 1 "D" V 6445 2680 50  0000 L CNN
+F 2 "" H 6400 2600 50  0001 C CNN
+F 3 "~" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F00DE11
+P 6400 2900
+F 0 "#PWR?" H 6400 2650 50  0001 C CNN
+F 1 "GND" H 6405 2727 50  0000 C CNN
+F 2 "" H 6400 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2450 6400 2350
+Connection ~ 6400 2350
+Wire Wire Line
+	6400 2750 6400 2900
+$Comp
+L Device:L L?
+U 1 1 5F011319
+P 6750 2350
+F 0 "L?" V 6940 2350 50  0000 C CNN
+F 1 "L" V 6849 2350 50  0000 C CNN
+F 2 "" H 6750 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 2350 6600 2350
+$Comp
+L Device:CP C?
+U 1 1 5F012C86
+P 7100 2600
+F 0 "C?" H 7218 2646 50  0000 L CNN
+F 1 "CP" H 7218 2555 50  0000 L CNN
+F 2 "" H 7138 2450 50  0001 C CNN
+F 3 "~" H 7100 2600 50  0001 C CNN
+	1    7100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2350 7100 2350
+Wire Wire Line
+	7100 2450 7100 2350
+Connection ~ 7100 2350
+Wire Wire Line
+	7100 2350 7350 2350
+$Comp
+L power:GND #PWR?
+U 1 1 5F013667
+P 7100 2900
+F 0 "#PWR?" H 7100 2650 50  0001 C CNN
+F 1 "GND" H 7105 2727 50  0000 C CNN
+F 2 "" H 7100 2900 50  0001 C CNN
+F 3 "" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2900 7100 2750
+Wire Wire Line
+	7350 2350 7350 2150
+Wire Wire Line
+	7350 2150 6150 2150
+Connection ~ 7350 2350
+Wire Wire Line
+	7350 2350 7550 2350
+$EndSCHEMATC
