@@ -48,8 +48,16 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "courtyards_overlap|133649999|79420001|51aa6c4b-8a2a-4b8c-8d9e-bc97b5b174c9|a05c066f-f6b7-4cb4-a808-c28b2e0c3f8d"
+      ],
       "meta": {
         "version": 2
       },
@@ -109,8 +117,18 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.4,
+        0.6,
+        1.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -398,7 +416,7 @@
       "model_mode": 0
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "documentarion/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -406,7 +424,7 @@
   },
   "sheets": [
     [
-      "fd1cbd48-bbda-4faa-8865-ef6555d46b2b",
+      "945b7806-a913-4ee6-867e-1d7f78c13610",
       ""
     ]
   ],
