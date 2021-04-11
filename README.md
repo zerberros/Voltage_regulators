@@ -11,3 +11,9 @@ Collection of switching voltage regulators
 
 [schematic](BUCK_LMR33630/documentation/BUCK_LMR33630.pdf)
 ![3D Render](BUCK_LMR33630/documentation/BUCK_LMR33630.png)
+
+## BUCK LM2576
+
+* ONLY Schematics
+* Replaced by LMR33630 
+
